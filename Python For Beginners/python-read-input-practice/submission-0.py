@@ -1,0 +1,15 @@
+def add_two_numbers() -> int:
+    user_input = input().split(",")
+    sum = 0
+
+    for i in user_input:
+        sum+=int(i)
+
+    return sum
+
+
+# do not modify below this line
+print(add_two_numbers())
+print(add_two_numbers())
+print(add_two_numbers())
+print(add_two_numbers())
